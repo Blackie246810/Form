@@ -1,0 +1,13 @@
+<?php
+$host='localhost';
+$username='root';
+$password='';
+$db='form';
+$con=mysqli_connect($host,$username,$password,$db);
+if($con){
+include("animation.php");
+}
+else{
+include("failed.php");
+}
+?>
